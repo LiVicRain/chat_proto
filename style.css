@@ -22,7 +22,7 @@ p{
 .app{
     position: relative;
     width: 320px;
-    height: 700px;
+    height: 640px;
     background-color: #FBF7F2;
     border-radius: 20px;
 }
@@ -44,7 +44,7 @@ ul{
     align-items: flex-end; */
     margin: 12px 12px 0 12px;
     padding: 0;
-    max-height: 500px;
+    max-height: 440px;
     overflow: auto;
 }
 ul > li{

@@ -6,4 +6,5 @@ let chatArr = [];
 //displayChat 함수
 function displayChat(){
     chatList.innerHTML = ""
+    chatArr.forEach()
 }
