@@ -1,0 +1,124 @@
+*{
+    font-family: 'NanumGothic';
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    background-color: darkgray;
+    margin: 0;
+}
+p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.app{
+    position: relative;
+    width: 320px;
+    height: 700px;
+    background-color: #FBF7F2;
+    border-radius: 20px;
+}
+.app > div {
+    height: 90px;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 1px solid #E1E1E1;
+}
+#app_title{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+ul{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+    margin: 12px 12px 0 12px;
+    padding: 0;
+    max-height: 500px;
+    overflow: auto;
+}
+ul > li{
+    list-style-type: none;
+}
+.send{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.send > span{
+    max-width: 200px;
+    cursor: pointer;
+    position: relative;
+    padding: 14px 20px 14px 20px; 
+    background-color: #FF6600;
+    border-radius: 20px 0 20px 20px;
+    list-style-type: none;
+    color: white;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.receive{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.receive > span{
+    max-width: 200px;
+    cursor: pointer;
+    position: relative;
+    padding: 14px 20px 14px 20px; 
+    background-color: #E1E1E1;
+    border-radius: 0 20px 20px 20px;
+    list-style-type: none;
+    color: #4D4D4D;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+form{
+    background-color: white;
+    border-top: 1px solid #E1E1E1;
+    border-radius: 0 0 20px 20px;
+    position:absolute;
+    bottom: 0;
+    height: 110px;
+    width: 100%;
+    display: flex;
+
+}
+input{
+    font-size: 11px;
+    margin: 0;
+    border: none;
+    background-color: white;
+    height: 100%;
+}
+input[type="text"]{
+    width: 220px;
+    padding: 12px;
+    border-radius: 0 0 0 20px;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input[type="submit"]{
+    cursor: pointer;
+    width: 100px;
+    height: 100%;
+    border-radius: 0 0 20px 0;
+    background-color: rgb(254, 229, 77);
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+  }
